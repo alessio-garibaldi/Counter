@@ -9,6 +9,28 @@ body {
     background-image: linear-gradient(to right,#ffaf5a, #fcff4949, #ffaf5a);
 }
 
+#logo, #logo2 {
+    position: fixed;
+    z-index: -1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+#logo img {
+    width: 300px;
+    height: 300px;
+    opacity: 50%;
+}
+
+#logo2 img {
+    width: 600px;
+    height: 600px;
+    opacity: 10%;
+}
+
 header {
     width: 90vw;
     margin: auto;
@@ -40,4 +62,30 @@ main {
     align-items: center;
     justify-content: space-evenly;
     
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+h2, h3{
+    width: 50%;
+    padding: 0px 10px;
+    color: #ff6200
+}
+
+h3 {
+    text-align: end;
+}
+
+h2 a,
+h3 a {
+    text-decoration: none;
+    color: #743d09;
+}
+
+h2 a:hover,
+h3 a:hover {
+    color: #ff6200;
 }
