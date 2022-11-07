@@ -35,7 +35,7 @@ Consequently the - button decreases the value by one unit (if the value is diffe
 
 ## Contact
 - Alessio Garibaldi (Email): alessiogaribaldi2000@gmail.com
-- Project Link: https://github.com/alessio-garibaldi/Counter
+- Project Link (repository): https://github.com/alessio-garibaldi/Counter
 - GitHub Profile: https://github.com/alessio-garibaldi
 - Personal Portfolio: https://alessio-garibaldi.github.io/personal-portfolio/
 - Linkedin Profile: https://www.linkedin.com/in/alessio-garibaldi/
