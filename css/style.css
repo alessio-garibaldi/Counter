@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Quantico', sans-serif;
+}
+
+body {
+    background-image: linear-gradient(to right,#ffaf5a, #fcff4949, #ffaf5a);
+}
+
+header {
+    width: 90vw;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #f9810057;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    font-size: 2rem;
+    color: #ff6200;
+    text-shadow: 1px 1px 5px #3e1c08;
+}
