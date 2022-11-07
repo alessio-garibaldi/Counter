@@ -1,4 +1,9 @@
-# Counter (Javascript Exercise)
+# Counter (Javascript Basics Project)
+
+## Application
+
+Link to the application: 
+https://alessio-garibaldi-counter.netlify.app/
 
 ## About The Project
 
