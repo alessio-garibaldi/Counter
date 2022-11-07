@@ -1,4 +1,10 @@
-# Contatore (Esercizio JavaScript)
+# Contatore (Progetto Javascript Basics)
+
+## Applicazione
+
+Link dell'applicazione: 
+https://alessio-garibaldi-counter.netlify.app/
+
 ## Informazioni sul progetto
 Le indicazioni per il progetto erano le seguenti: 
 sviluppare un'applicazione JavaScript che permetta all'utente di aumentare e diminuire il valore del contatore: appena si entra nella pagina, verrà visualizzato 0 come valore iniziale del contatore e si avranno a disposizione due pulsanti (+/-) per modificare il valore del contatore.
