@@ -33,7 +33,7 @@ In the footer of the page I inserted the various links for the project repositor
 The counter works very simply: the + button adds one unit to the initial value (0).
 Consequently the - button decreases the value by one unit (if the value is different from 0).
 
-## Contact
+## Contacts
 - Alessio Garibaldi (Email): alessiogaribaldi2000@gmail.com
 - Project Link (repository): https://github.com/alessio-garibaldi/Counter
 - GitHub Profile: https://github.com/alessio-garibaldi
