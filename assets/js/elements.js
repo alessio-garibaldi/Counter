@@ -13,9 +13,6 @@ function createElement(tag, text, classname){
 let numberBox = createElement("div", "0", "number-box");
 counter.appendChild(numberBox)
 
-// INITIAL VALUE VARIABLE AND MADE IT A NUMBER
-let initialValue = Number(numberBox.innerText)
-
 // DIV FOR THE + / - BUTTONS
 let buttonsBox = createElement("div", "", "buttons-box");
 counter.appendChild(buttonsBox)
