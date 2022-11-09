@@ -1,23 +1,31 @@
-let counter = document.querySelector("#counter");  // VARIABLE FOR THE COUNTER ELEMENT
+// VARIABLE FOR THE COUNTER
+let counter = document.querySelector("#counter");  
 
+// FUNCTION TO CREATE HTML ELEMENTS
 function createElement(tag, text, classname){
-    var element = document.createElement(tag);
+    let element = document.createElement(tag);
     element.innerText = text;
     element.classList.add(classname);
     return element
 }
 
-var numberBox = createElement("div", "0", "number-box");
+// DIV FOR THE INITIAL VALUE (O)
+let numberBox = createElement("div", "0", "number-box");
 counter.appendChild(numberBox)
-var initialValue = parseInt(numberBox.innerText)
 
-var buttonsBox = createElement("div", "", "buttons-box");
+// INITIAL VALUE VARIABLE AND MADE IT A NUMBER
+let initialValue = Number(numberBox.innerText)
+
+// DIV FOR THE + / - BUTTONS
+let buttonsBox = createElement("div", "", "buttons-box");
 counter.appendChild(buttonsBox)
 
-var decrease = createElement("button", "-", "increase");
+// BUTTON -
+let decrease = createElement("button", "-", "decrease");
 buttonsBox.appendChild(decrease)
 
-var increase = createElement("button", "+", "decrease");
+//BUTTON +
+let increase = createElement("button", "+", "increase");
 buttonsBox.appendChild(increase)
 
 
