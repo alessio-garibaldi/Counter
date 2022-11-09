@@ -2,15 +2,15 @@ let counter = document.querySelector("#counter");  // VARIABLE FOR THE COUNTER E
 
 function createElement(tag, text, classname){
     var element = document.createElement(tag);
-    element.innerHTML = text;
+    element.innerText = text;
     element.classList.add(classname);
     return element
 }
 
 var numberBox = createElement("div", "0", "number-box");
 counter.appendChild(numberBox)
+var initialValue = parseInt(numberBox.innerText)
 
-console.log(numberBox)
 var buttonsBox = createElement("div", "", "buttons-box");
 counter.appendChild(buttonsBox)
 
@@ -19,3 +19,5 @@ buttonsBox.appendChild(decrease)
 
 var increase = createElement("button", "+", "decrease");
 buttonsBox.appendChild(increase)
+
+
